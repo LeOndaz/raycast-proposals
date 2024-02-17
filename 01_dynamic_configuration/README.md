@@ -11,6 +11,8 @@ Paths intellisense will work using your favourite IDE, instead of just validatin
 
 Dynamic command enable/disable depending on system status or specs, for example, commands utilizing neural engine in Apple Sillicon macs
 
+Dynamic command/preference values, an example would be `editor` value with a dropdown, the dropdown values get automatically populated based on the installed text editors or IDEs on the system.
+
 Check for existing prequisites dynamically & for once instead of per command, or install them if the user agreed to do so
 
 Keep package.json clean, JSON can get overwhelmingly overwhelming with many commands, specially when per-command preferences/args are repeated
