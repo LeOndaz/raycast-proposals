@@ -7,7 +7,6 @@ Introduce a `raycast.extension.ts`
 
 ## Advantages:
 
----
 Paths intellisense will work using your favourite IDE, instead of just validating a path using regex in the schema
 
 Dynamic command enable/disable depending on system status or specs, for example, commands utilizing neural engine in Apple Sillicon macs
@@ -24,11 +23,9 @@ Allows Multi-lingual dynamically translated commands (translate commands before 
 
 Sharing preferences between users would be possible between users
 
----
 
 ## Disadvantages:
 
----
 Users will be able to get their preferences from the cloud if the author chose to support such behavior, this puts Raycast backups in danger and needs to be addressed
 
 Adding more commands dynamically is implied, the files won't be there but the command will mostly show up in Raycast
@@ -37,8 +34,6 @@ Needs custom rules for enforcing rules on to prevent malicious use of `preferenc
 1. Authors can change preferences to match their needs, for example, opt-in telemetry, by force (maybe solved with a custom eslint rule)
 2. Extension icons can contain nudity if dynamically retrieved (can be solved with a nudity detection after parsing `raycast.extension.ts`)
 3. Authors may or may not keep it PG-13 in the title, description of the extension (can be solved by forcing it to be written once)
-
----
 
 ## Code
 
